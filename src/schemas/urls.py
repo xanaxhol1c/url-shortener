@@ -8,3 +8,6 @@ class PostUrlResponse(BaseModel):
 
 class GetUrlRequest(BaseModel):
     slug: str = Field(..., max_length=8, min_length=1)
+
+class GetUrlResponse(BaseModel):
+    url: HttpUrl

@@ -13,6 +13,6 @@ class Settings(BaseSettings):
 settings = Settings()
 
 DATABASE_URL = (
-    f"postgresql+psycopg2://{settings.DB_USER}:{settings.DB_PASSWORD}"
+    f"postgresql+psycopg://{settings.DB_USER}:{settings.DB_PASSWORD}"
     f"@{settings.DB_HOST}:{settings.DB_PORT}/{settings.DB_NAME}"
 )

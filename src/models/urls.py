@@ -1,5 +1,4 @@
 from sqlalchemy import String, Column
-from uuid import UUID
 
 from .base import Base
 
