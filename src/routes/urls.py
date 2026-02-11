@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import RedirectResponse
 from src.dependencies import get_db
-from src.schemas.urls import PostUrlRequest, PostUrlResponse, GetUrlRequest, GetUrlResponse
+from src.schemas.urls import PostUrlRequest, PostUrlResponse, GetUrlResponse
 from src.services.urls import shorten_url
 from src.crud.urls import get_url_by_slug
 
