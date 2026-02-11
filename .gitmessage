@@ -1,0 +1,11 @@
+# Type: feat | fix | docs | refactor | test | chore | build | ci | perf
+# Scope: module or feature (optional)
+# Example: feat(auth): add login endpoint
+
+<type>(<scope>): <short description>
+
+# Body (optional):
+# Explain WHY, not HOW
+
+# Footer (optional):
+# BREAKING CHANGE:
